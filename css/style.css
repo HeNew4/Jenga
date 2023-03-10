@@ -1,0 +1,26 @@
+html {
+    scroll-behavior: smooth;
+    transition: scroll-behavior 0.5s ease-in-out;
+}
+
+p {
+    text-align: justify;
+}
+
+header {
+    text-align: center;
+    margin-top: 50px;
+}
+
+header p {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+img {
+    transition: transform 0.3s ease-in-out;
+}
+
+img:hover {
+    transform: rotate(2deg);
+}
