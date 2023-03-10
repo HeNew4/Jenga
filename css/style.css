@@ -21,6 +21,22 @@ img {
     transition: transform 0.3s ease-in-out;
 }
 
-img:hover {
+main img:hover {
     transform: rotate(2deg);
+}
+
+
+footer img {
+    width: 15%;
+}
+.final-footer {
+    margin-top: 50px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    justify-items: center;
+}
+
+.final-footer p {
+    text-align: center;
 }
